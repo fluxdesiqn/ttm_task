@@ -1,0 +1,23 @@
+/*
+Theme Name: TTM Base Theme
+Theme URI: https://www.talktomedia.co.uk
+Author: Rob Bates
+Author URI: https://www.talktomedia.co.uk
+Description: A bespoke theme created by Talk to Media
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: Talk to Media WordPress Theme, Copyright 2020 Talk to Media Ltd
+Revive is distributed under the terms of the GNU GPL version 2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: revive
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+
+Resource Licenses:
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/

@@ -1,0 +1,103 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+$enable-caret: false;
+$theme-color-interval: 5%;
+
+$primary: #007bff;
+$secondary: #6610f2;
+$tertiary: #6f42c1;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #ffffff;
+$dark: #333333;
+$accent: #E65C17;
+$grey: #F3F2F6;
+
+$theme-colors: (
+		"secondary": $secondary,
+		"tertiary": $tertiary,
+		"accent" : $accent,
+		"grey" : $grey
+);
+
+$font-family-base: hero-new, sans-serif;
+
+$body-color: $primary;
+$link-color: $secondary;
+$link-hover-color: $tertiary;
+$navbar-dark-color: $light;
+
+$grid-gutter-width: 36px;
+
+$grid-breakpoints: (
+		xs: 0,
+		sm: 576px,
+		md: 768px,
+		lg: 1020px,
+		xl: 1200px,
+		xxl: 1460px
+);
+
+$container-max-widths: (
+		sm: 540px,
+		md: 720px,
+		lg: 960px,
+		xl: 1400px,
+		xxl: 1580px
+) !default;
+
+$link-decoration: underline;
+
+//$btn-border-width: 2px;
+//$btn-padding-x: 1.75rem;
+//$btn-padding-y: 1rem;
+//$btn-line-height: 1;
+//$btn-border-radius: 50rem;
+//$btn-border-radius-lg: 50rem;
+//$btn-border-radius-sm: 50rem;
+//$btn-font-size: 18px;
+//$btn-line-height: 28px;
+//
+//
+//$custom-control-indicator-bg: transparent;
+//$custom-control-indicator-border-color: $secondary;
+//$custom-control-indicator-border-width: 2px;
+//$custom-checkbox-indicator-border-radius: 0;
+//$custom-control-indicator-size: 1.15rem;
+//$custom-control-indicator-checked-color: $secondary;
+//$custom-control-indicator-checked-border-color: $secondary;
+//$custom-control-indicator-checked-bg: transparent;
+//
+//
+//$pagination-padding-y: 0;
+//$pagination-padding-x: 0;
+//$pagination-border-width: 2px;
+//$pagination-line-height: 56px;
+//$pagination-color: $primary;
+//$pagination-bg: $light;
+//$pagination-border-color: $tertiary;
+//$pagination-hover-color: $light;
+//$pagination-hover-border-color: $secondary;
+//$pagination-hover-bg: $secondary;
+//$pagination-active-color: $primary;
+//$pagination-active-bg: $light;
+//$pagination-active-border-color: $tertiary;
+//$pagination-focus-outline: none;
+//$pagination-focus-box-shadow: none;
+//
+//$nav-tabs-border-width: 0;
+//$nav-tabs-link-active-bg: $grey;
+//$nav-tabs-link-active-color: $primary;
+//$nav-tabs-border-radius: 0;
+//
+//$card-spacer-x: 20px;
+//$card-spacer-y: 20px;
+//$card-bg: $grey;
+//$card-cap-color: $primary;
+//$card-cap-bg: $grey;
+//$card-border-width: 0;
+//$card-inner-border-radius: 0;
+//$card-border-radius: 0;

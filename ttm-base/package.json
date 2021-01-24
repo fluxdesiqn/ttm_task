@@ -1,0 +1,49 @@
+{
+  "name": "ttm_base",
+  "version": "1.0.0",
+  "description": "Wordpress starter theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "bundle": "gulp bundle --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@googlemaps/js-api-loader": "^1.11.1",
+    "@popperjs/core": "^2.6.0",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.2.0",
+    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-combine-media-queries": "^0.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wp-pot": "^2.5.0",
+    "gulp-zip": "^5.0.2",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.1.6",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^6.1.0",
+    "yargs": "^16.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue": "^2.6.12"
+  }
+}

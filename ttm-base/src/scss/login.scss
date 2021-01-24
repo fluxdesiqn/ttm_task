@@ -1,0 +1,99 @@
+body.login {
+  background-color: #fff;
+
+  div#login {
+	background-color: #fff;
+	padding-top: 25px;
+	margin-top: 8%;
+	border-radius: 10px;
+
+	h1 {
+	  a {
+		background-image: none, url('../img/logo.svg');
+		background-size: 200px 80px;
+		background-position: center top;
+		background-repeat: no-repeat;
+		color: #999;
+		height: 80px;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 1.3em;
+		margin: 0 auto 25px;
+		padding: 0;
+		text-decoration: none;
+		width: 200px;
+		text-indent: -9999px;
+		outline: none;
+		overflow: hidden;
+		display: block;
+	  }
+	}
+
+	form#loginform {
+	  border: 0;
+
+	  label {
+		color: #000;
+		font-size: 14px;
+		margin-bottom:10px;
+	  }
+
+	  p {
+		color: #000;
+
+		&.forgetmenot {
+		  input#rememberme {
+		  }
+		}
+
+		&.submit {
+		}
+
+		input#wp-submit {
+		}
+	  }
+
+	  input {
+		border: 2px solid #000;
+		&#user_login, &#user_pass, &#wp-submit {
+		  background-color: #000;
+		  border-radius: 50rem;
+		  color: #fff;
+		  height: 56px;
+		  line-height: 56px;
+		  padding: 0 20px;
+		}
+		&#wp-submit {
+		  width:100%;
+		  background-color:#fff;
+		  color:#000;
+		  font-size:16px;
+		  font-weight:500;
+		}
+	  }
+	}
+
+	p#nav {
+	  a {
+		color: #000;
+	  }
+	}
+
+	p#backtoblog {
+	  a {
+		color: #000;
+	  }
+	}
+  }
+
+  .button {
+	&.wp-hide-pw {
+	  min-width: 56px;
+	  min-height: 56px;
+
+	  .dashicons {
+		color: #fff;
+	  }
+	}
+  }
+}

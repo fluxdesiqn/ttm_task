@@ -1,0 +1,26 @@
+@import "variables";
+
+// Loads Bootstrap4 from node_modules
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Loads extra utilities
+@import "mixins/rems";
+
+// Loads the TTM defaults. Just a few classes to incorporate BS in WP
+@import "defaults/default";
+
+// Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+//@import "defaults/woocommerce";
+
+// Contact Form 7 - Bootstrap 4 support
+@import "defaults/contact-form7";
+
+// Custom styles, add more
+@import "components/base";
+@import "components/header";
+@import "components/footer";
+@import "components/sidebar";
+
+// Pages
+@import "pages/home";
+
