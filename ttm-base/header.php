@@ -15,6 +15,8 @@ $container = get_theme_mod('ttm_container_type');
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -25,6 +27,7 @@ $container = get_theme_mod('ttm_container_type');
 <?php do_action('wp_body_open'); ?>
 <div class="site" id="page">
 	<header id="main-header c-header">
+
 		<!-- ******************* The Navbar Area ******************* -->
 		<nav id="brand-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
 			<?php if ('container' === $container) { ?>
@@ -70,9 +73,18 @@ $container = get_theme_mod('ttm_container_type');
 								]
 						); ?>
 					</div>
-					<div class="c-header-call-back js-nav-call-back mr-2">
+					<!-- Callback-->
+					<div class="c-header-call-back js-nav-call-back mr-2" href="#callBackDesktop">
 						<span>Request a call back</span>
 					</div>
+
+					<!-- Callback popup mobile-->
+					<div class="collapse" id="callBackNav">
+						<div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						</div>
+					</div>
+
 					<div class="c-header-search js-nav-search">
 						<span><img src="/wp-content/uploads/2021/01/search-line.png" alt="search icon"></span>
 					</div>
@@ -91,7 +103,9 @@ $container = get_theme_mod('ttm_container_type');
 
 			</div><!-- .container -->
 		<?php } ?>
-		</nav><!-- .site-navigation -->
+		</nav>
+
+		<!-- .site-navigation -->
 		<div class="c-header-search--mobile bg-primary w-100 d-inline-flex d-lg-none">
 			<input type="text" class="js-nav-search--mobile" name="search" placeholder="Search...">
 			<img class="ml-auto" src="/wp-content/uploads/2021/01/search-line-1.png" alt="search icon">

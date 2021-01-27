@@ -1,2 +1,57 @@
 #homepage {
 }
+
+.c-banner {
+
+}
+
+.c-banner-section {
+    min-height: 600px;
+}
+
+.c-banner-section__text {
+    color: $white;
+    font-size: 38px;
+}
+
+.c-banner-section__text span {
+    opacity: 0.8;
+}
+
+.c-banner-callback {
+
+    background: $dark;
+    padding: 20px;
+}
+
+.c-banner-callback__title {
+
+    
+
+}
+
+.c-banner-callback__form {
+
+}
+
+.c-banner-callback__form input, .c-banner-callback__form select {
+    width: 100% !important;
+    background: $primary !important;
+    border-radius: 30px !important;
+    border: none !important;
+    color: $dark !important;
+    padding: 0 15px !important;
+}
+
+.c-banner-callback__form input::placeholder, .c-banner-callback__form select::placeholder {
+    color: $dark !important;
+}
+
+.c-banner-callback__form .wpcf7-list-item {
+    color: $primary;
+}
+
+.c-banner-callback__form .wpcf7-list-item input {
+    width: auto !important;
+    color: $dark;
+}
